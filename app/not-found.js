@@ -1,0 +1,2 @@
+import Link from 'next/link';
+export default function NotFound(){return <main className="container" style={{minHeight:'72vh',display:'grid',placeItems:'center',textAlign:'center'}}><div><div className="mono" style={{color:'var(--accent)',letterSpacing:'.15em'}}>ERROR 404</div><h1 className="display" style={{fontSize:78,margin:'10px 0'}}>LIFT NOT FOUND.</h1><p style={{color:'#8f9692',marginBottom:25}}>That route doesn’t point to a workout in the FitLog library.</p><Link className="btn btn-primary" href="/">Back to library</Link></div></main>}
