@@ -1,0 +1,1 @@
+export default function Loading(){return <main className="container" style={{minHeight:'70vh',display:'grid',placeItems:'center'}}><div style={{display:'grid',justifyItems:'center',gap:14}}><div className="spinner"/><div className="mono" style={{color:'#8d9490'}}>Loading workouts…</div></div></main>}
